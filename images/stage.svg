@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Illustration of a theatre stage with red curtains and spotlights">
+  <rect width="600" height="400" fill="#0A2540"/>
+  <!-- spotlight beams -->
+  <polygon points="150,0 90,400 260,400" fill="#12A6A6" opacity="0.12"/>
+  <polygon points="450,0 340,400 510,400" fill="#12A6A6" opacity="0.12"/>
+  <!-- back wall -->
+  <rect x="60" y="60" width="480" height="260" fill="#0E1E33"/>
+  <!-- stage floor -->
+  <polygon points="60,320 540,320 580,360 20,360" fill="#3b2f2f"/>
+  <rect x="20" y="360" width="560" height="30" fill="#2a2020"/>
+  <!-- curtains -->
+  <path d="M60,60 q30,10 30,130 q0,90 -30,130 z" fill="#9b1c2e"/>
+  <path d="M110,60 q30,10 30,120 q0,80 -30,110 z" fill="#b3243a"/>
+  <path d="M540,60 q-30,10 -30,130 q0,90 30,130 z" fill="#9b1c2e"/>
+  <path d="M490,60 q-30,10 -30,120 q0,80 30,110 z" fill="#b3243a"/>
+  <!-- top valance -->
+  <rect x="60" y="52" width="480" height="26" fill="#7a1522"/>
+  <path d="M60,78 q40,26 80,0 q40,26 80,0 q40,26 80,0 q40,26 80,0 q40,26 80,0 q40,26 80,0 v-26 h-480 z" fill="#9b1c2e"/>
+  <!-- spotlights -->
+  <circle cx="150" cy="40" r="10" fill="#FCD34D"/>
+  <circle cx="450" cy="40" r="10" fill="#FCD34D"/>
+</svg>

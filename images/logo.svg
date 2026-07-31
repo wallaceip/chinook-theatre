@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Chinook Theatre logo">
+  <circle cx="50" cy="50" r="48" fill="#0A2540"/>
+  <!-- theatre ticket -->
+  <rect x="24" y="38" width="52" height="30" rx="4" fill="#12A6A6"/>
+  <circle cx="24" cy="53" r="5" fill="#0A2540"/>
+  <circle cx="76" cy="53" r="5" fill="#0A2540"/>
+  <line x1="50" y1="42" x2="50" y2="64" stroke="#0A2540" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="37" y="57" font-family="Georgia, serif" font-size="12" fill="#0A2540" text-anchor="middle" font-weight="bold">C</text>
+  <text x="63" y="57" font-family="Georgia, serif" font-size="12" fill="#0A2540" text-anchor="middle" font-weight="bold">T</text>
+</svg>

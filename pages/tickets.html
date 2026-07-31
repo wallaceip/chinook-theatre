@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinook Theatre - Tickets</title>
+    <!-- style sheets -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="flex logo">
+            <img src="../images/logo.svg" alt="Chinook Theatre ticket logo">
+            <h1>Chinook Theatre</h1>
+        </a>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="tickets.html" class="active">Tickets</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="booking-page">
+        <h2>Book Your Show Nights</h2>
+        <p>I'd like to attend on</p>
+        <ul class="flex day-selector">
+            <li class="teal-hover" id="wednesday">Wed</li>
+            <li class="teal-hover" id="thursday">Thu</li>
+            <li class="teal-hover" id="friday">Fri</li>
+            <li class="teal-hover" id="saturday">Sat</li>
+            <li class="teal-hover" id="sunday">Sun</li>
+        </ul>
+        <p>with
+            <span class="clicked small-button teal-hover" id="general">General</span> or
+            <span class="small-button teal-hover" id="vip">VIP</span> seating.
+        </p>
+        <p class="top-margin large-text">My total is $<span id="total-cost">0</span>.</p>
+        <p class="fake-button teal-hover" id="clear-button">clear nights</p>
+    </main>
+
+    <footer>
+        <p>Chinook Theatre &mdash; 123 Prairie Ave, Calgary AB</p>
+        <p>Box office: (403) 555-0134 &middot; Open Wed&ndash;Sun</p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="../scripts/tickets.js"></script>
+</body>
+
+</html>
